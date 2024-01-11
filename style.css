@@ -1,0 +1,63 @@
+
+/* Common Style */
+html,body {margin: 0;padding: 0;}
+h1,h2,h3,h4,h5,h6 {margin: 0;padding: 0;}
+ul {margin: 0;padding: 0;}
+header,nav,section,article,aside,footer {display: block;overflow: hidden;}
+
+/* container */
+#container {
+    display: block;
+    margin: 0 auto;
+    width: 900px;
+}
+header{
+    background-color: #ccc;
+    padding: 15px 20px;
+    
+}
+header h1{
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+}
+nav{
+    display: block;
+    margin: 0 auto;
+    background-color: #b4b4b4;
+    padding: 10px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+nav ul li  {
+    color: red;
+    display: inline;
+    list-style: none;
+
+}
+aside{
+    float: right;
+    background-color: #ddd;
+    width: 300px;
+    height: 484px;
+
+}
+
+article{
+    padding: 20px;
+    text-align: justify;
+}
+
+section{
+    background-color: #c9c9c9;
+}
+hr{
+    color: #fff;
+}
+footer{
+    background-color: #bfbfbf;
+    padding: 0px 15px ;
+}
